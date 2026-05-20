@@ -35,7 +35,7 @@ export default function PackagesSection() {
       <div className="resorts__layout">
         {/* Imagen izquierda */}
         <div className="resorts__image-side">
-          <img src="/imagenes/ofertas.jpeg" alt="Ofertas en Resorts" />
+          <img src="/imagenes/ofertas.png" alt="Paquetes Internacionales 2026 — Caribbean Waves" />
           <div className="resorts__image-overlay" />
           <div className="resorts__offer-badge">
             <span className="resorts__offer-badge-text">OFERTA</span>
