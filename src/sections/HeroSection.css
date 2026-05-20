@@ -121,14 +121,23 @@
     min-height: auto;
   }
 
-  .hero__content {
-    padding-top: 100px;
-    padding-bottom: 36px;
+  /* Mayor especificidad (.hero .hero__content) para que este padding
+     gane sobre el de .section-container y el contenido del hero no
+     quede tapado por el navbar fijo. */
+  .hero .hero__content {
+    padding-top: 130px;
+    padding-bottom: 44px;
+  }
+
+  .hero__badge {
+    margin-bottom: 16px;
   }
 
   .hero__title {
     font-size: clamp(24px, 6.5vw, 36px);
     letter-spacing: -1px;
+    line-height: 1.2;
+    margin-bottom: 12px;
   }
 
   .hero__sub {
@@ -139,6 +148,7 @@
 
   .hero__trust {
     flex-direction: column;
-    gap: 6px;
+    gap: 8px;
+    margin-top: 22px;
   }
 }

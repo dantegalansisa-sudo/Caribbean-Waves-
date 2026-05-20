@@ -150,6 +150,15 @@
 
 /* Mobile */
 @media (max-width: 900px) {
+  .navbar__logo {
+    width: 34px;
+    height: 34px;
+  }
+
+  .navbar__name {
+    font-size: 16px;
+  }
+
   .navbar__burger {
     display: flex;
   }
