@@ -139,7 +139,7 @@ export default function FlightOffersSection() {
                 <span className="flight-row__dest-code">{f.to}</span>
                 <span className="flight-row__price">{f.price}</span>
                 <MagneticButton
-                  href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa un vuelo a ${f.city} por ${f.price}`)}`}
+                  href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa un vuelo a ${f.city} por ${f.price}\n\n🌐 Escribo desde la página web`)}`}
                   className="flight-row__cta"
                   target="_blank"
                 >
@@ -171,7 +171,7 @@ export default function FlightOffersSection() {
                 <Stars count={h.stars} />
                 <span className="flight-row__price">{h.price}</span>
                 <MagneticButton
-                  href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa el hotel ${h.name} en ${h.city}`)}`}
+                  href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa el hotel ${h.name} en ${h.city}\n\n🌐 Escribo desde la página web`)}`}
                   className="flight-row__cta"
                   target="_blank"
                 >
@@ -203,7 +203,7 @@ export default function FlightOffersSection() {
                 <Stars count={h.stars} />
                 <span className="flight-row__price">{h.price}</span>
                 <MagneticButton
-                  href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa el hotel ${h.name} en ${h.city}`)}`}
+                  href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa el hotel ${h.name} en ${h.city}\n\n🌐 Escribo desde la página web`)}`}
                   className="flight-row__cta"
                   target="_blank"
                 >

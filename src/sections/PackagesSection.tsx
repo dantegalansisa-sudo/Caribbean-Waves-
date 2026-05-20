@@ -84,7 +84,7 @@ export default function PackagesSection() {
                 className="offer-row"
                 key={item.resort}
                 variants={fadeInUp}
-                href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa la oferta del resort ${item.resort} (${item.price})`)}`}
+                href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa la oferta del resort ${item.resort} (${item.price})\n\n🌐 Escribo desde la página web`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -106,7 +106,7 @@ export default function PackagesSection() {
           </p>
 
           <MagneticButton
-            href="https://wa.me/18299146230?text=Hola!%20Quiero%20información%20sobre%20las%20ofertas%20de%20resorts."
+            href={`https://wa.me/18299146230?text=${encodeURIComponent('Hola! Quiero información sobre las ofertas de resorts.\n\n🌐 Escribo desde la página web')}`}
             className="resorts__main-cta"
             target="_blank"
           >

@@ -79,7 +79,7 @@ export default function DestinationsSection() {
               <motion.a
                 key={d.code}
                 className="dest-card"
-                href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa viajar a ${d.city} (${d.price})`)}`}
+                href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa viajar a ${d.city} (${d.price})\n\n🌐 Escribo desde la página web`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 variants={fadeInUp}
@@ -110,7 +110,7 @@ export default function DestinationsSection() {
               <motion.a
                 key={p.id}
                 className="dest-card dest-card--promo"
-                href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa el ${tab === 'daypass' ? 'Day Pass' : 'Tour'}: ${p.title} ${p.price ? `(${p.price})` : ''}`)}`}
+                href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa el ${tab === 'daypass' ? 'Day Pass' : 'Tour'}: ${p.title} ${p.price ? `(${p.price})` : ''}\n\n🌐 Escribo desde la página web`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 variants={fadeInUp}

@@ -13,7 +13,7 @@ export default function MobileCTA() {
       </a>
       <a
         className="mobile-cta__btn mobile-cta__btn--whatsapp"
-        href="https://wa.me/18299146230?text=Hola%20Caribbean%20Waves!%20Quiero%20cotizar%20un%20vuelo."
+        href={`https://wa.me/18299146230?text=${encodeURIComponent('Hola Caribbean Waves! Quiero cotizar un vuelo.\n\n🌐 Escribo desde la página web')}`}
         target="_blank"
         rel="noopener noreferrer"
       >

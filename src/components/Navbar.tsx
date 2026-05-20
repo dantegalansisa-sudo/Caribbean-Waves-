@@ -41,7 +41,7 @@ export default function Navbar() {
             </a>
           ))}
           <MagneticButton
-            href="https://wa.me/18299146230?text=Hola%20Caribbean%20Waves!%20Quiero%20reservar."
+            href={`https://wa.me/18299146230?text=${encodeURIComponent('Hola Caribbean Waves! Quiero reservar.\n\n🌐 Escribo desde la página web')}`}
             className="navbar__cta"
             target="_blank"
           >

@@ -24,7 +24,7 @@ export default function ContactSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const text = `Hola Caribbean Waves! Solicito cotización:\n- Nombre: ${form.nombre}\n- Teléfono: ${form.telefono}\n- Destino: ${form.destino}\n- Servicio: ${form.servicio}\n- Fecha: ${form.fecha}\n- Viajeros: ${form.viajeros}\n- Mensaje: ${form.mensaje}`;
+    const text = `Hola Caribbean Waves! Solicito cotización:\n- Nombre: ${form.nombre}\n- Teléfono: ${form.telefono}\n- Destino: ${form.destino}\n- Servicio: ${form.servicio}\n- Fecha: ${form.fecha}\n- Viajeros: ${form.viajeros}\n- Mensaje: ${form.mensaje}\n\n🌐 Escribo desde la página web`;
     window.open(`https://wa.me/18299146230?text=${encodeURIComponent(text)}`, '_blank');
   };
 

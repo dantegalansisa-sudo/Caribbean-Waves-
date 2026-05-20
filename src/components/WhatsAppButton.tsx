@@ -1,7 +1,7 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/18299146230?text=Hola%20Caribbean%20Waves!%20Quiero%20información%20sobre%20vuelos."
+      href={`https://wa.me/18299146230?text=${encodeURIComponent('Hola Caribbean Waves! Quiero información sobre vuelos.\n\n🌐 Escribo desde la página web')}`}
       className="whatsapp-float"
       target="_blank"
       rel="noopener noreferrer"

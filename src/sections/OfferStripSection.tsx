@@ -31,7 +31,7 @@ export default function OfferStripSection() {
           </div>
           <a
             className="offer-strip__view-all"
-            href="https://wa.me/18299146230?text=Hola!%20Quiero%20ver%20todas%20las%20ofertas%20de%20vuelos."
+            href={`https://wa.me/18299146230?text=${encodeURIComponent('Hola! Quiero ver todas las ofertas de vuelos.\n\n🌐 Escribo desde la página web')}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,7 +44,7 @@ export default function OfferStripSection() {
             <motion.a
               key={o.code}
               className="offer-strip__card"
-              href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa un vuelo a ${o.route} por ${o.price}`)}`}
+              href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa un vuelo a ${o.route} por ${o.price}\n\n🌐 Escribo desde la página web`)}`}
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}

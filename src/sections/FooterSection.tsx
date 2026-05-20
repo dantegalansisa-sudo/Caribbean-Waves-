@@ -52,7 +52,7 @@ export default function FooterSection() {
             <ul className="footer__links">
               {destLinks.map((d) => (
                 <li key={d}>
-                  <a href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa volar a ${d}`)}`} target="_blank" rel="noopener noreferrer">{d}</a>
+                  <a href={`https://wa.me/18299146230?text=${encodeURIComponent(`Hola! Me interesa volar a ${d}\n\n🌐 Escribo desde la página web`)}`} target="_blank" rel="noopener noreferrer">{d}</a>
                 </li>
               ))}
             </ul>

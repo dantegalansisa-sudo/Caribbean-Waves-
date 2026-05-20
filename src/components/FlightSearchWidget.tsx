@@ -189,7 +189,7 @@ export default function FlightSearchWidget() {
     if (businessClass) msg += `\n💼 *Clase:* Business`;
     if (includeBaggage) msg += `\n🧳 *Incluir maleta:* Sí`;
     if (flexDates) msg += `\n📅 *Fechas flexibles:* Sí`;
-    msg += `\n\n_Enviado desde caribbeanwaves.com_`;
+    msg += `\n\n🌐 _Mensaje enviado desde la página web_`;
     window.open(`https://wa.me/18299146230?text=${encodeURIComponent(msg)}`, '_blank');
   };
 
@@ -198,7 +198,7 @@ export default function FlightSearchWidget() {
       const labels: Record<ServiceTab, string> = {
         vuelos: '', hoteles: 'hoteles', paquetes: 'paquetes de viaje', cruceros: 'cruceros',
       };
-      window.open(`https://wa.me/18299146230?text=${encodeURIComponent(`Hola Caribbean Waves! Me interesa información sobre ${labels[tab]}.`)}`, '_blank');
+      window.open(`https://wa.me/18299146230?text=${encodeURIComponent(`Hola Caribbean Waves! Me interesa información sobre ${labels[tab]}.\n\n🌐 Escribo desde la página web`)}`, '_blank');
     }
     setServiceTab(tab);
   };
